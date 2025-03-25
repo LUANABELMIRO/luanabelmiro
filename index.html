@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&family=Material+Symbols+Outlined&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="menu.js" defer></script>
+    <title>Luana Belmiro</title>
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="./images/luana.logo.png" alt="Assinatura Luana B">
+                </a>
+            </div>
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#menu-desktop">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="material-symbols-outlined">list</i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="material-symbols-outlined">close</i>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#btn-social">Contatos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="overlay-menu" id="overlay-menu"></div>
+    </header>    
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>LUANA BELMIRO</h1>
+                        <p><strong> Front-End Iniciante</strong>
+                        <br>
+                        Estou me especializando em front-end com foco em React e boas práticas de programação. 🎈</p>
+                        <div class="btn-contato">
+                            <button>Entre em contato</button>
+                        </div>
+                    </div>
+                    <div class="img-topo-site">
+                        <img src="./images/lu.png" alt="Foto Luana" class="foto responsiva">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="especialidades">
+            <div class="interface">
+                <h2>HARD SKILLS</h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <span class="material-symbols-outlined">code</span>
+                        <h3>CSS</h3>
+                        <p>Experiência prática com CSS, incluindo Flexbox, Grid, animações, variáveis e design responsivo. Familiaridade com boas práticas e otimização de estilos.</p>
+                    </div>
+                    <div class="especialidades-box">
+                        <span class="material-symbols-outlined">code</span>
+                        <h3>JavaScript</h3>
+                        <p>Com JavaScript, trabalhando com manipulação do DOM, consumo de APIs e criação de funcionalidades dinâmicas.</p>
+                    </div>
+                    <div class="especialidades-box">
+                        <span class="material-symbols-outlined">code</span>
+                        <h3>React</h3>
+                        <p>Estou iniciando em React, com conhecimento básico sobre componentes, props e o uso do JSX para criar interfaces interativas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sobre" id="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="/images/luana.jpg" alt="">
+                    </div>
+                    <div class="txt-sobre">
+                        <h2>Muito prazer, <br>sou a Luana Belmiro</h2>
+                        <p>Designer gráfico em transição para desenvolvimento full stack, com foco atual no front-end. Tenho experiência em CSS, JavaScript e estou iniciando em React, criando interfaces responsivas e dinâmicas. Possuo conhecimento em SQL e Git, o que me permite trabalhar com controle de versão e integração de dados. Meu objetivo é unir criatividade e tecnologia para desenvolver soluções visuais e funcionais completas, evoluindo constantemente em minha jornada como desenvolvedora.</p>
+                        <div class="btn-social">
+                            <a href="https://instagram.com/luubelmiro/" target="_blank"><button><i class="fa-brands fa-square-instagram"></i></button></a>
+                            <a href="https://linkedin.com/in/luanabelmiro/" target="_blank"><button><i class="fa-brands fa-linkedin"></i></button></a>
+                            <a href="https://github.com/LUANABELMIRO?tab=repositories" target="_blank"><button><i class="fa-brands fa-github"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="especialidades" id="projetos">
+            <div class="interface">
+                <h2>PORTFÓLIO</h2>
+                <div class="flex">
+                    <div class="clickable-container">
+                        <div class="img-port" style="background-image: url(images/tela_cartao.png);">
+                          <div class="overlay">
+                            <a href="https://luanabelmiro.github.io/FORMULARIO-CARTAO-DE-CREDITO/" target="_blank" style="color: white; text-decoration: none;">Formulário</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="clickabl-container">
+                        <div class="img-port" style="background-image: url(images/site_comunidade.png);">
+                          <div class="overlay">
+                            <a href="https://luanabelmiro.github.io/huddle-landing-page-with-alternating-feature-blocks-master/" target="_blank" style="color: white; text-decoration: none;">Des. Web</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="clickable-container">
+                        <div class="img-port" style="background-image: url(images/cadastro_listagem.png);">
+                          <div class="overlay">
+                            <a href="https://luanabelmiro.github.io/formulario/" target="_blank" style="color: white; text-decoration: none;">Cadastro e Listagem de Produtos</a>
+                          </div>
+                        </div>
+                      </div>
+        </section>
+        <section class="formulario">
+            <div class="interface">
+                <form method="post"action="envia.php">
+                <h2>FALA COMIGO</h2>
+                <form action="">
+                    <input type="text" name="nome" id="nome" placeholder="Seu nome completo:" required>
+                    <input type="text" name="email" id="email" placeholder="Seu e-mail:" required>
+                    <input type="text" name="telefone" id="contato" placeholder="Seu contato:">
+                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar">
+                        <input type="submit" value="ENVIAR">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="logo-footer">
+                    <img src="./images/luana.logo.png" alt="Assinatura Luana B">
+                </div>
+                <div class="btn-social">
+                    <a href="https://instagram.com/luubelmiro/" target="_blank"><button><i class="fa-brands fa-square-instagram"></i></button></a>
+                            <a href="https://linkedin.com/in/luanabelmiro/" target="_blank"><button><i class="fa-brands fa-linkedin"></i></button></a>
+                            <a href="https://github.com/LUANABELMIRO?tab=repositories" target="_blank"><button><i class="fa-brands fa-github"></i></button></a>
+                </div>
+            </div>
+            <div class="line-footer borda">
+                <p><i class="fa-solid fa-envelope"></i><a href="mailto:luanag.belmiro@gmail.com">luanag.belmiro@gmail.com</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
